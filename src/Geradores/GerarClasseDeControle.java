@@ -69,6 +69,9 @@ public class GerarClasseDeControle {
             case "String":
                 aux = " if (chave.equals(lista.get(i).get" + ferramentas.plMaius(nomeChave) + "())) {";
                 break;
+            case "long":
+                aux = " if (chave==lista.get(i).get" + ferramentas.plMaius(nomeChave) + "()) {";
+                break;
             default:
                 aux = "tipo desconhecido, programe";
         }

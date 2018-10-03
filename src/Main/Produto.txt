@@ -1,0 +1,5 @@
+int;idProduto;
+String;nomeProduto;
+double;precoProduto;
+Date;dataDeCadastro;
+Date;dataSeiLa;
